@@ -14,7 +14,7 @@ void wprowadz_dane()
 }
 void wyprowadz_dane()
 {
-     for(int i = 0; i < N; i++)
+     for(int i = 9; i < N; i--)
     {
      std::cout << "a[" << i << "] = " << a[i] << std::endl;
      }
